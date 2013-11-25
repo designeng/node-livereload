@@ -1,0 +1,12 @@
+{
+  "name": "agent-connect-proxy",
+  "dependencies": {
+    "connect": "2.7.9"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-regarde": "~0.1.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-shell": "~0.6.1"
+  }
+}
