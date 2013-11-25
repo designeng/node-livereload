@@ -1,0 +1,1 @@
+Node.js initial project with nodemon support. For modules information, see package.json.
