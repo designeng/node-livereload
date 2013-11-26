@@ -1,11 +1,15 @@
 {
   "name": "agent-connect-proxy",
+  "main": "app/js/index.js",
   "dependencies": {
     "connect": "2.7.9"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-shell": "~0.6.1"
+    "grunt-shell": "~0.6.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-concurrent": "~0.4.2",
+    "grunt-nodemon": "~0.1.2"
   }
 }
