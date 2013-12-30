@@ -46,6 +46,3 @@ module.exports = (grunt) ->
 
     # for all at once compilation
     grunt.registerTask "coffee-compile", ["coffee:each"]
-
-    grunt.registerTask "server", ()->
-        console.log "server task"

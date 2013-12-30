@@ -18,3 +18,9 @@ Then start default task
 ```javascript
 grunt
 ```
+
+You may also use command
+```javascript
+grunt coffee-compile
+```
+for all .coffee files compilation.

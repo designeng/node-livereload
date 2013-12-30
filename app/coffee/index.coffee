@@ -14,7 +14,6 @@ output = (req, res) ->
     res.end()
 
 app = connect()
-    .use(connect.bodyParser())
     .use(output)
 
 console.log("Server started at port #{PORT}");

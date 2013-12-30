@@ -17,7 +17,7 @@ output = function(req, res) {
   return res.end();
 };
 
-app = connect().use(connect.bodyParser()).use(output);
+app = connect().use(output);
 
 console.log("Server started at port " + PORT);
 
