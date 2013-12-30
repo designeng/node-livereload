@@ -13,7 +13,7 @@ console.log(date.getTime());
 output = function(req, res) {
   res.setHeader('Content-Type', 'text/html');
   res.write("<head><script src='//localhost:35729/livereload.js'></script></head>");
-  res.write("<p>thanks > " + (date.getTime()) + "</p>");
+  res.write("<p>Now: " + (date.getTime()) + "</p>");
   return res.end();
 };
 

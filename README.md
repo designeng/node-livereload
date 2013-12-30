@@ -6,4 +6,15 @@ Initialy, install nodemon:
 npm install nodemon -g
 ```
 
-For modules information, see package.json.
+Then install node modules as usial
+```javascript
+npm install
+```
+
+For required modules information, see package.json.
+
+Then start default task
+
+```javascript
+grunt
+```
